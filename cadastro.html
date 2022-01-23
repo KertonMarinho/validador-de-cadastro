@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-Br">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="form_h3"> Formulário </div>
+            <form action="paginas/login.html" class="validator" method="GET">
+                <input type="text" name="Nome Completo" placeholder="Nome completo" data-rules="required"/>
+                <input type="text" name="Endereço" placeholder="Endereço" data-rules="required"/>
+                <input type="email"name="emailUsuario" placeholder="Email"riquired data-rules="required"/>
+                <input class="password" type="password" name="password" placeholder="senha" data-rules="required|min=4"/>
+                
+                
+                <select name="ordenação"id="sexo">
+                
+                    <option>feminino</option>
+                    <option>masculino</option>
+                </select><br/>
+                
+                
+            
+                <p>
+                    <label id="declaracaoAlien"><nb>Eu declaro que não sou alienigena Alienado</nb></label>
+                    <input type="checkbox" id="checkbox" valie="lsdldlld"/>
+                    <input type="tel" name="telefone" placeholder="telefone">
+                    
+                </p>
+                <input type="submit" id="enviar" value="cadastrar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
