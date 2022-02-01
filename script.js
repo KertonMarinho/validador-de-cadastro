@@ -1,5 +1,5 @@
 let validator  = {
-    handlSubmit:(event)=> {
+    handleSubmit:(event)=> {
         event.preventDefault();
 
         let send = true;

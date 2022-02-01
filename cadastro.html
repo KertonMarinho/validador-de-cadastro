@@ -8,8 +8,8 @@
     <div class="container">
         <div class="form">
             <div class="form_h3"> Cadastro </div>
-            <form action="paginas/login.html" class="validator" method="GET">
-                <input type="text" name="Nome Completo" placeholder="Nome completo" data-rules="required/min=4">
+            <form method="post" action="cadastro.php" class="validator" >
+                <input type="text" name="Nome Completo" placeholder="Nome completo" data-rules="required/min=4"/>
                 <input type="text" name="Endereço" placeholder="Endereço" data-rules="required"/>
                 <input type="email"name="emailUsuario" placeholder="Email"riquired data-rules="required"/>
                 <input class="password" type="password" name="password" placeholder="senha" data-rules="required|min=4"/>
@@ -29,9 +29,10 @@
                     <input type="tel" name="telefone" placeholder="telefone">
                     
                 </p>
-                <input type="submit" id="enviar" value="cadastrar">
+                <input type="submit" id="enviar" value="cadastrar"/>
             </form>
         </div>
     </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
