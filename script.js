@@ -52,7 +52,7 @@ let validator  = {
     },
     showError:(input, error) => {
 
-        input.style.bordercolor ='#ff0000';
+        document.querySelector('input').style.border="2px solid #ff0000";
 
         let errorElement = document.createElement('div');
         errorElement.classList.add('error');

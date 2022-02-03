@@ -91,9 +91,7 @@ p {
 }
 .error {
     font-size:11px;
-    background-color: #ff0000;
     color: #fff;
     padding: 1px;
-    border-radius: 5px;
-    height: 10px;
+    
 }
