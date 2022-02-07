@@ -14,7 +14,7 @@ body {
 }
 .form {
     width: 600px;
-    height: 457px;
+    height: 410px;
     background-image: linear-gradient(rgba(8, 8, 8, 0.527), rgba(68, 68, 67, 0.13)) ;
     border: 1px solid rgba(124, 126, 126, 0.294);
     display:block;
@@ -22,12 +22,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 20px;
-    
 }
-
-
-    
-    
 .form_h3 {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
@@ -39,23 +34,20 @@ body {
 }
 .password {
     width: 200px;
-    
-
 }
-
-
-
+.campo {
+    height:20px;
+    margin-bottom:30px;
+}
 input {
     
     width: 590px;
     float: left;
-    margin-bottom: 30px;
     background-color: rgba(8, 8, 8, 0.527);
     border-radius: 20px;
     border: 2px solid rgba(124, 126, 126, 0.294);
     padding-left: 10px;
     color:white ;
-    
 }
 p { 
     display: flex;
@@ -65,10 +57,6 @@ p {
 #declaracaoAlien {
     white-space: nowrap;
     color: rgb(150, 144, 144);
-    
-    
-    
-
 }
 #sexo {
     background-color: rgba(8, 8, 8, 0.527);
@@ -77,14 +65,11 @@ p {
     border: 2px solid rgba(124, 126, 126, 0.294);
     padding-left: 10px;
     margin-left: 200px;
-    
-    
-
 }
 #checbox {
     background-color: rgba(8, 8, 8, 0.527);
     color: rgb(150, 144, 144);
-    }
+}
 #enviar {
     background-color: rgba(8, 8, 8, 0.527);
     color: rgb(150, 144, 144);
@@ -92,6 +77,5 @@ p {
 .error {
     font-size:11px;
     color: #fff;
-    padding: 1px;
-    
+    padding-left: 10px;
 }

@@ -9,36 +9,33 @@
         <div class="form">
             <div class="form_h3"> Cadastro </div>
             <form method="post" action="cadastro.php" class="validator" >
-                <label>
-                    <input type="text" name="Nome Completo" placeholder="Nome completo" data-rules="required|min=4"/>
-                </label>
+                <div class="campo"> 
+                    <input type="text" name="Nome Completo" placeholder="Nome completo"  onkeydown= "EnterTab" data-rules="required|min=4"/>
+                </div>
+                <div class="campo">
+                    <input type="text" name="Endereço" placeholder="Endereço" onkeydown= "EnterTab"  data-rules="required|min =4"/>
+                </div>
+                <div class="campo">
+                    <input type="email"name="emailUsuario" placeholder="Email" onkeydown= "EnterTab" riquired data-rules="required"/>
+                </div>
+                <div class="campo">
+                    <input class="password" type="password" name="password" placeholder="senha"  onkeydown= "EnterTab" data-rules="required|min=4"/>
                 
-                <label>
-                    <input type="text" name="Endereço" placeholder="Endereço" data-rules="required"/>
-                </label>
-                <label>
-                    <input type="email"name="emailUsuario" placeholder="Email"riquired data-rules="required"/>
-                </label>
-                <label>
-                    <input class="password" type="password" name="password" placeholder="senha" data-rules="required|min=4"/>
-                </label>
-                <label>
                     <select name="ordenação"id="sexo">
                 
                         <option>feminino</option>
                         <option>masculino</option>
                     </select><br/>
-                </label>
-                
-                
-            
-                <p>
+                </div>
+                <div class="campo"><p>
                     <label id="declaracaoAlien"><nb>Eu declaro que não sou alienigena Alienado</nb></label>
                     <input type="checkbox" id="checkbox" valie="lsdldlld"/>
                     <input type="tel" name="telefone" placeholder="telefone">
                     
-                </p>
-                <input type="submit" id="enviar" value="cadastrar"/>
+                </p></div>
+                <div class="campo">
+                    <input type="submit" id="enviar" value="cadastrar"/>
+                </div>
             </form>
         </div>
     </div>
