@@ -1,2 +1,2 @@
 # validador-de-cadastro
-![Screenshot](/screen.png)
+![Screenshot](/screenn.png)
